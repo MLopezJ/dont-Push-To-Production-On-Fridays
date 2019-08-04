@@ -1,3 +1,4 @@
+
 posterUp =   '|￣￣￣￣￣￣￣￣￣￣￣|'
 posterDwon = '|______________________|'
 warningMessage = "     Don't push\n     to production"
@@ -6,7 +7,8 @@ lineBreak = '\n'
 rabbit = " (\__/) ||\n (•ㅅ•) ||\n/ 　  づ"
 
 def drawing():
-    drawing = welcomeMessage + lineBreak
+    drawing = ''
+    drawing += welcomeMessage + lineBreak
     drawing += lineBreak
     drawing += posterUp + lineBreak
     drawing += warningMessage +lineBreak
@@ -18,6 +20,8 @@ def drawing():
     #print(warningMessage)
     #print(posterDwon)
     #print(rabbit)
+    print(drawing)
+
 
     return drawing
     
