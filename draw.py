@@ -6,11 +6,19 @@ lineBreak = '\n'
 rabbit = " (\__/) ||\n (•ㅅ•) ||\n/ 　  づ"
 
 def drawing():
-    print(welcomeMessage)
-    print(lineBreak)
-    print(posterUp)
-    print(warningMessage)
-    print(posterDwon)
-    print(rabbit)
+    drawing = welcomeMessage + lineBreak
+    drawing += lineBreak
+    drawing += posterUp + lineBreak
+    drawing += warningMessage +lineBreak
+    drawing += posterDwon + lineBreak
+    drawing += rabbit + lineBreak
+    #print(welcomeMessage)
+    #print(lineBreak)
+    #print(posterUp)
+    #print(warningMessage)
+    #print(posterDwon)
+    #print(rabbit)
+
+    return drawing
     
 drawing()
