@@ -14,12 +14,6 @@ def drawing():
     drawing += warningMessage +lineBreak
     drawing += posterDwon + lineBreak
     drawing += rabbit + lineBreak
-    #print(welcomeMessage)
-    #print(lineBreak)
-    #print(posterUp)
-    #print(warningMessage)
-    #print(posterDwon)
-    #print(rabbit)
     print(drawing)
 
 
