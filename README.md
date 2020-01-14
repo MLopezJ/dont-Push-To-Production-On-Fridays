@@ -11,8 +11,6 @@ Is just a joke inspired in a serie of tweets into the dev community in Twitter. 
 
 The tweet contains the famous "Sign Bunny" ASCII meme, who is basically a rabbit holding a sign with the phrase "Don't push to production". 
 
-![Alt text](dontPushFridays.png?raw=true "Title")
-
 ## How it works
 The project works by the interaction of two applications: the Twitter application and the Python application. Those application comunicate by an API provided by Twitter, so basically, the Python application create the ASCII art, authenticate to the Twitter application and then, make the post in the account. 
 
